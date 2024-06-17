@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+    background-color: burlywood;
+}
+
+#img {
+    width: 280px;
+    height:900px;
+    
+
+
+    position: relative;
+
+    background: url("./guitar-silhouette.png");
+    background-size: cover;
+    background-position: center;
+
+
+  
+
+    overflow: visible;
+}
+
+#img #svg-one {
+    position: absolute;
+    left:-106px;
+    top:26.5%;
+
+    
+
+
+    transform: rotate(-90deg);
+}
+#img #svg-two{
+    position: absolute;
+    left:-102px;
+    top:26.5%;
+
+    
+
+
+    transform: rotate(-90deg);
+
+}
+#img #svg-three{
+    position: absolute;
+    left:-98px;
+    top:27%;
+
+    
+
+
+    transform: rotate(-90deg);
+
+}
